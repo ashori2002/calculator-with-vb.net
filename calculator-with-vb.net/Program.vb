@@ -9,3 +9,14 @@ Public Class Calculator
         Return num1 + num2
     End Function
 
+    Public Function Subtract(ByVal num1 As Double, ByVal num2 As Double) As Double
+        ' Subtracts num2 from num1
+        Return num1 - num2
+    End Function
+
+    Public Function Multiply(ByVal num1 As Double, ByVal num2 As Double) As Double
+        ' Multiplies two numbers
+        Return num1 * num2
+    End Function
+
+    
