@@ -361,3 +361,4 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/calculator-with-vb.net/calculator-with-vb.net.vbproj
