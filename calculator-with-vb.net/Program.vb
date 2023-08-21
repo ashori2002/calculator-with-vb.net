@@ -19,4 +19,14 @@ Public Class Calculator
         Return num1 * num2
     End Function
 
-    
+    Public Function Divide(ByVal num1 As Double, ByVal num2 As Double) As Double
+        If num2 <> 0 Then
+            ' Divides num1 by num2
+            Return num1 / num2
+        Else
+            ' Division by zero is not allowed
+            Console.WriteLine("Error: Division by zero is not allowed.")
+            Return Double.NaN
+        End If
+    End Function
+End Class
